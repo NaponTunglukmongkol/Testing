@@ -1,0 +1,251 @@
+p{
+    font-size: 14px;
+}
+.navbar li{
+    display: inline;
+    padding-left: 15px;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    padding: 0px;
+    text-align: right;
+    font-size: 14px;
+    margin: 10px 0px;
+    margin-right: 8px;
+}
+.nav-icon{
+    width: 20px;
+    height: 20px;
+    top: 1px;
+    position: relative;
+}
+.nav-img-border{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    top: 3px;
+    border-radius: 50%;
+    background-color: white;
+    border: white;
+}
+.nav-img-border:hover{
+    background-color: #dddddd;
+}
+.active{
+    background-color: #dddddd;
+}
+.login{
+    background-color: #2b7de9;
+    color: white;
+    font-size: 14px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+.login:hover{
+    background-color: #3b8df9;
+    cursor: pointer;
+    
+}
+.google{
+    width: 272px;
+    height: 92px;
+    position: relative;
+    left: 50%;
+    margin-left: -136px;
+}
+.search-bar{
+    position: absolute;
+    top: 18.5%;
+    left: 50%;
+    margin-left: -291px;
+}
+.search-box{
+    margin: 20px 0px;
+    width: 582px;
+    height: 44px;
+    border-radius: 22px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+}
+.search-box:hover{
+    box-shadow: -1px 0 lightgrey, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgrey;
+}
+.search-area{
+    width: 487px;
+    height: 34px;
+    position: relative;
+    top: -18px;
+    left: -1px;
+    border-style: none;
+    font-size: 14px;
+}
+.search-area:focus{
+    outline: none;
+}
+.search-icon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+}
+.keyboard-icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 12px;
+    margin-top: 10px;
+}
+.search-button-area{
+    text-align: center;
+    padding-top: 12px;
+}
+.search-button{
+    background-color: #f8f9fa;
+    border-style: none;
+    font-size: 14px;
+    height: 36px;
+    padding: 0px 16px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+.search-button:hover{
+    cursor: pointer;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+}
+.search-button:active{
+    color: black;
+}
+.below-search{
+    padding-top: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+.bottom-navbar{
+    position: fixed;
+    bottom: 52px;
+    left: 0px;
+    width: 100%;
+    background-color: #e8e9ea;
+    height: 51px;
+    margin: 0;
+    font-size: 16px;
+    color: #70757a;
+    border-bottom: solid 1px lightgrey;
+}
+#the-bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+#the-bottom ul{
+    display: inline;
+}
+.bottom-navbar p{
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.left li{
+    display: inline;
+    padding: 0px 15px;
+}
+.left{
+    padding-left: 25px;
+}
+.right{
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+}
+.right li{
+    display: inline;
+    padding-left: 15px;
+}
+.middle li{
+    display: inline;
+}
+.middle{
+    padding-left: 15px;
+}
+@media screen and (max-width: 800px){
+    .bottom-navbar{
+        bottom: 154px;
+    }
+    #the-bottom{
+        height: 153px;
+    }
+    #the-bottom ul{
+        display: block;
+    }
+    .left{
+        text-align: center;
+        padding-left: 0;
+    }
+    .right{
+        text-align: center;
+        position: relative; 
+    }
+    .middle{
+        text-align: center;
+    }
+    .search-bar{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+    .search-area{
+        width: 78%;
+    }
+    .search-box{
+        margin: 1%;
+        width: 98%;
+    }
+}
+.hide{
+    display: none;
+}
+.dropdown{
+    height: 60%;
+    right: 40px;
+    width: 314px;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #70757a;
+    border-width: 1px;
+    overflow: scroll;
+}
+.row{
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    width: 90px;
+    border-radius: 5px;
+}
+.item img{
+    width: 50px;
+    height: 50px;
+}
+.item:hover{
+    background-color: lightblue;
+}
