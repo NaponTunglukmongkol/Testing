@@ -227,9 +227,12 @@ p{
     z-index: 10;
     border-radius: 10px;
     border-style: solid;
-    border-color: #70757a;
+    border-color: #fff;
     border-width: 1px;
     overflow: scroll;
+    -moz-box-shadow: 0 0 5px #70757a;
+    -webkit-box-shadow: 0 0 5px #70757a;
+    box-shadow: 0 0 5px #70757a;
 }
 .row{
     text-align: center;
