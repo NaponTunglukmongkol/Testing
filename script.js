@@ -28,3 +28,18 @@ function happySearching(){
     var text = document.getElementById("searchText").value
     alert("So happy I can search for " + text);
 }
+
+const time = new Date();
+if(time.getHours() >= 18){
+    const style = document.getElementById("stylesheet");
+    style.href = 'styledarkmode.css';
+    const google = document.getElementById("google");
+    google.classList.toggle('hide');
+    const googleDark = document.getElementById("google-dark");
+    googleDark.classList.toggle('hide');
+    const keyboard = document.getElementById("keyboard-icon");
+    keyboard.classList.toggle('hide');
+    const keyboardDark = document.getElementById("keyboard-icon-dark");
+    keyboardDark.classList.toggle('hide');
+}
+
